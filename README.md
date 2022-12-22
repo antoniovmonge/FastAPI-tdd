@@ -1,5 +1,7 @@
 # FastAPI - Docker - Test Driven Development
 
+![Continuous Integration and Delivery](https://github.com/antoniovmonge/fastapi-tdd/workflows/Continuous%20Integration%20and%20Delivery/badge.svg?branch=master)
+
 ```bash
 uvicorn app.main:app --reload
 ```
