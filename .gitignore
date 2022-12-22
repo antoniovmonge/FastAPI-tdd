@@ -3,3 +3,5 @@ env
 .env
 .python-version
 .vscode
+htmlcov
+.coverage
