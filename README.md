@@ -18,6 +18,12 @@ Run Tests
 docker-compose exec web python -m pytest -p no:warnings
 ```
 
+Run unit tests in parallel
+
+```bash
+docker-compose exec web pytest -k "unit" -n auto -p no:warnings
+```
+
 Run tests with coverage
 
 ```bash
