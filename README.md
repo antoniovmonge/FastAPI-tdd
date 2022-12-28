@@ -29,3 +29,9 @@ Run Flake8
 ```bash
 docker-compose exec web flake8 .
 ```
+
+Run Isort
+
+```bash
+docker-compose exec web isort .
+```
